@@ -44,11 +44,11 @@ public class Cliente {
         this.profissao = profissao;
     }
 
-    public List<Endereco> getEnderecos(List<Endereco> enderecos) {
+    public List<Endereco> getEnderecos() {
         return enderecos;
     }
 
-    public void setEnderecos() {
+    public void setEnderecos(List<Endereco> enderecos) {
         this.enderecos = enderecos;
     }
 }
